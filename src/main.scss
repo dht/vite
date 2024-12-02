@@ -1,7 +1,7 @@
 html {
   min-height: 100vh;
   display: flex;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -14,21 +14,6 @@ body,
   margin: 0;
   flex: 1;
   display: flex;
-}
-
-.dani {
-  border: 5px solid green;
-  font-size: 50px;
-}
-
-.yossi {
-  border: 5px solid gold;
-  font-size: 40px;
-}
-
-.itai {
-  border: 5px solid pink;
-  font-size: 50px;
 }
 
 button {

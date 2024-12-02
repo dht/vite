@@ -1,5 +1,4 @@
-import { Wrapper } from './App.style';
-
+import { Wrapper } from './DigitalCard.style';
 export type DigitalCardProps = {
   name: string;
   age: number;
@@ -10,7 +9,8 @@ export function DigitalCard(props: DigitalCardProps) {
 
   return (
     <Wrapper>
-      Hello {name}! How are you doing? Your age is {age}!!!
+      <div>{name}</div>
+      <div>Job: {age}</div>
     </Wrapper>
   );
 }

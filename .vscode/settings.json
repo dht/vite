@@ -8,6 +8,10 @@
     "**/Thumbs.db": true,
     "public": true,
     "dist": true,
-    "*.*": true
+    "*.*": true,
+    "**/CarCard.*": true
+  },
+  "files.include": {
+    ".vscode/settings.json": true
   }
 }

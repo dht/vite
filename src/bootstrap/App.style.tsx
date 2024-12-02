@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   color: #333;
-  border: 5px solid red;
   font-size: 40px;
   font-weight: bolder;
 `;
